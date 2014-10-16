@@ -15,6 +15,7 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
+ *Atenciosamente SheroLero Games
  */
 -->
 
@@ -26,7 +27,7 @@
         android:layout_height="wrap_content" android:layout_marginBottom="10dip"
         android:layout_marginTop="10dip" android:layout_width="fill_parent">
         <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-            android:textSize="30sp" android:text="Pergunta" android:id="@+id/quiz_question"
+            android:textSize="30sp" android:text="@string/pergunta" android:id="@+id/quiz_question"
             android:layout_centerHorizontal="true" android:textColor="#ffa4514b"></TextView>
     </RelativeLayout>
     <RelativeLayout android:id="@+id/quiz_question_answer_relative_layout"

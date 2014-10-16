@@ -15,25 +15,28 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
+ *Atenciosamente SheroLero Games
  */
 -->
 
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/home_root_layout" android:background="#f5e77e">
+<RelativeLayout android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_root_layout"
+    android:background="#f5e77e">
 
     <Button android:layout_height="wrap_content"
-        android:layout_width="fill_parent"
+        android:layout_width="250sp"
         android:id="@+id/btn_start_quiz"
         android:clickable="true"
         android:onClick="goToQuiz"
         android:text="@string/start_quiz"
         android:background="@drawable/custom_button1"
         android:textColor="#993300"
+        android:layout_marginBottom="94dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="94dp" />
+        android:layout_centerHorizontal="true" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -46,18 +49,5 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_above="@+id/btn_start_quiz" />
-
-    <Button
-        android:layout_height="wrap_content"
-        android:layout_width="fill_parent"
-        android:id="@+id/button"
-        android:clickable="true"
-        android:onClick="goToOktober"
-        android:text="@string/oktober"
-        android:background="@drawable/custom_button1"
-        android:textColor="#993300"
-        android:layout_marginBottom="43dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

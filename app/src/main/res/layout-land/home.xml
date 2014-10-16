@@ -15,33 +15,55 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
+
+ *Atenciosamente SheroLero Games
  */
 -->
 
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/home_root_layout" android:background="#f5e77e">
+<RelativeLayout android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_root_layout"
+    android:background="#f5e77e">
 
-    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-        android:layout_alignParentTop="true" android:layout_above="@+id/home_bottom_relative_layout"
-        android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
+    <RelativeLayout android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/home_bottom_relative_layout"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/relativeLayout">
 
-        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
-            android:id="@+id/imageView" android:layout_alignParentTop="true"
-            android:layout_alignParentLeft="true" android:layout_alignParentStart="true"
-            android:layout_alignParentBottom="true" android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true" android:src="@drawable/loks_grande" />
+        <ImageView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/loks_grande" />
     </RelativeLayout>
 
     <RelativeLayout android:id="@+id/home_bottom_relative_layout"
         android:layout_width="wrap_content" android:layout_height="wrap_content"
         android:layout_alignParentBottom="true" android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" android:layout_marginBottom="70dp">
-        <Button android:layout_height="wrap_content" android:layout_width="fill_parent"
-            android:text="@string/start_quiz" android:id="@+id/btn_start_quiz"
-            android:clickable="true" android:onClick="goToQuiz"
-            android:background="@drawable/custom_button1" android:textColor="#993300" />
+
 
     </RelativeLayout>
+
+    <Button android:layout_height="wrap_content"
+        android:layout_width="250sp"
+        android:text="@string/start_quiz"
+        android:id="@+id/btn_start_quiz"
+        android:clickable="true"
+        android:onClick="goToQuiz"
+        android:background="@drawable/custom_button1"
+        android:textColor="#993300"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_centerHorizontal="true" />
+
 
 </RelativeLayout>

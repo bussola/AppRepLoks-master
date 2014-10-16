@@ -15,25 +15,40 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
+ *Atenciosamente SheroLero Games
  */
 -->
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_height="wrap_content" android:id="@+id/quiz_root_layout"
-    android:isScrollContainer="true" android:orientation="vertical"
-    android:layout_width="fill_parent" android:background="#f5e77e">
+    android:layout_height="wrap_content"
+    android:id="@+id/quiz_root_layout"
+    android:isScrollContainer="true"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:background="#f5e77e">
+
     <RelativeLayout android:id="@+id/quiz_topic_relative_layout"
-        android:layout_height="wrap_content" android:layout_marginBottom="10dip"
-        android:layout_marginTop="10dip" android:layout_width="fill_parent">
-        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-            android:textSize="30sp" android:text="Pergunta" android:id="@+id/quiz_question"
-            android:layout_centerHorizontal="true" android:textColor="#ffa4514b"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:layout_marginTop="10dip"
+        android:layout_width="fill_parent">
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="@string/pergunta"
+            android:id="@+id/quiz_question"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ffa4514b"
             android:gravity="center" />
     </RelativeLayout>
 
     <RelativeLayout android:id="@+id/quiz_answers_relative_layout"
-        android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <ListView android:layout_height="fill_parent" android:clickable="true"
-            android:layout_width="fill_parent" android:id="@+id/quiz_answers" />
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <ListView android:layout_height="fill_parent"
+            android:clickable="true"
+            android:layout_width="fill_parent"
+            android:id="@+id/quiz_answers" />
     </RelativeLayout>
+
 </LinearLayout>

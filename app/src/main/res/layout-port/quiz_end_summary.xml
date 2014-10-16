@@ -15,6 +15,7 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
+ *Atenciosamente SheroLero Games
  */
 -->
 
@@ -33,20 +34,30 @@
         android:layout_centerHorizontal="true" android:id="@+id/quiz_end_bottom_relative_layout"
         android:layout_marginTop="50dip"></RelativeLayout>
 
-    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content"
-        android:id="@+id/txt_end_of_quiz" android:text="@string/quiz_end_header"
-        android:textSize="30sp" android:textColor="#ffa4514b" android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true" android:layout_alignParentStart="true"
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/txt_end_of_quiz"
+        android:text="@string/quiz_end_header"
+        android:textSize="30sp"
+        android:textColor="#ffa4514b"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
         android:layout_above="@+id/quiz_end_totals_relative_layout"
-        android:layout_alignParentRight="true" android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="false"
         android:gravity="center"></TextView>
 
-    <Button android:layout_height="wrap_content" android:id="@+id/quiz_end_accept_button"
-        android:text="@string/quiz_end_accept_button" android:layout_width="fill_parent"
-        android:onClick="goToMenu" android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true" android:layout_alignParentStart="true"
-        android:layout_marginBottom="62dp" android:background="@drawable/custom_button1"
-        android:textColor="#993300"></Button>
+    <Button android:layout_height="wrap_content"
+        android:id="@+id/quiz_end_accept_button"
+        android:text="@string/quiz_end_accept_button"
+        android:layout_width="250sp"
+        android:onClick="goToMenu"
+        android:background="@drawable/custom_button1"
+        android:textColor="#993300"
+        android:layout_below="@+id/quiz_end_incorrect_relative_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp"></Button>
 
     <RelativeLayout android:layout_height="wrap_content" android:layout_width="wrap_content"
         android:id="@+id/quiz_end_incorrect_relative_layout" android:minWidth="100dip"
@@ -55,12 +66,18 @@
         android:layout_below="@+id/quiz_end_bottom_relative_layout"
         android:layout_alignLeft="@+id/quiz_end_bottom_relative_layout"
         android:layout_alignStart="@+id/quiz_end_bottom_relative_layout">
-        <TextView android:id="@+id/quiz_end_record_header" android:layout_width="wrap_content"
-            android:layout_height="wrap_content" android:text="@string/quiz_recorde_header"
+        <TextView android:id="@+id/quiz_end_record_header"
+            android:layout_width="wrap_content"
+            android:textColor="#ffa4514b"
+            android:layout_height="wrap_content"
+            android:text="@string/quiz_recorde_header"
             android:layout_centerHorizontal="true"></TextView>
         <TextView android:layout_below="@+id/quiz_end_record_header"
-            android:layout_height="wrap_content" android:layout_width="wrap_content"
-            android:id="@+id/quiz_end_recorde_number" android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="#ffa4514b"
+            android:id="@+id/quiz_end_recorde_number"
+            android:layout_centerHorizontal="true"
             android:textSize="30dip"></TextView>
     </RelativeLayout>
 
@@ -69,12 +86,18 @@
         android:layout_toStartOf="@+id/quiz_end_bottom_relative_layout"
         android:layout_alignTop="@+id/quiz_end_bottom_relative_layout"
         android:layout_toLeftOf="@+id/quiz_end_bottom_relative_layout">
-        <TextView android:id="@+id/quiz_end_correct_header" android:layout_width="wrap_content"
-            android:layout_height="wrap_content" android:text="@string/correct_answers_header"
+        <TextView android:id="@+id/quiz_end_correct_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffa4514b"
+            android:text="@string/correct_answers_header"
             android:layout_centerHorizontal="true"></TextView>
         <TextView android:layout_below="@+id/quiz_end_correct_header"
-            android:layout_height="wrap_content" android:layout_width="wrap_content"
-            android:id="@+id/quiz_end_correct_number" android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="#ffa4514b"
+            android:id="@+id/quiz_end_correct_number"
+            android:layout_centerHorizontal="true"
             android:textSize="30dip"></TextView>
     </RelativeLayout>
 </RelativeLayout>

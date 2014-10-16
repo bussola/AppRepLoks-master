@@ -1,26 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">RepLoks</string>
-    <string name="action_settings">Configurações</string>
-    <string name="title_activity_quiz">QuizActivity</string>
+    <string name="app_name">Rep Loks</string>
+    <string name="action_settings">Sobre</string>
+    <string name="title_activity_quiz">Quiz Rep Loks</string>
     <string name="start_quiz">Quiz Loks</string>
     <string name="oktober">OktoberLoks</string>
-    <string name="question_reading_exception">Ocorreu um erro. Por favor envie um email aos
-        desenvolvedores.</string>
+    <string name="pergunta">Pergunta</string>
+    <string name="question_reading_exception">Ocorreu um erro. Por favor envie um email aos desenvolvedores.</string>
     <string name="answer_correct">Resposta correta!</string>
     <string name="quiz_end_header">Perdeu!!</string>
     <string name="correct_answers_header">Pontuação</string>
     <string name="quiz_recorde_header">Recorde</string>
     <string name="quiz_end_accept_button">Voltar ao menu</string>
 
+    <string name="sobre_titulo">Produzido e idealizado por: </string>
+    <string name="crewbussola">Crew e Bussola</string>
+    <string name="agradecimento">Um agradecimento especial para a Rep Loks, seus moradores, ex-moradores e agregados</string>
+    <string name="codigo_fonte">Codigo fonte: github.com/talespadua/AppRepLoks</string>
+
     <plurals name="question_reading_parse_fail_number">
         <item quantity="one">Ocorreu um erro. Por favor envie um email aos desenvolvedores.</item>
         <item quantity="other">Ocorreu um erro. Por favor envie um email aos desenvolvedores.</item>
     </plurals>
 
-    <string name="title_activity_score">ScoreActivity</string>
+    <string name="contato_bussola">vbussola@yahoo.com</string>
+    <string name="contato_crew">talescpadua@gmail.com</string>
+    <string name="contato">Contato:</string>
+    <string name="versao">versão 0.0.1 pré-alpha</string>
+    <string name="atualizacoes">Nào percam as proximas atualizações!</string>
+
+    <string name="title_activity_score">Pontuação</string>
     <string name="title_activity_oktober">Map</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="sobre_topo">Elaborado e desenvolvido por Bussola e Creuzito</string>
+    <string name="title_activity_google_play_services">GooglePlayServicesActivity</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_sobre">Sobre</string>
 
 </resources>

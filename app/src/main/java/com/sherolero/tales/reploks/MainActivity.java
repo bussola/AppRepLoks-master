@@ -31,7 +31,8 @@ public class MainActivity extends Activity {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
         if (id == R.id.action_settings) {
-            return true;
+            Intent i = new Intent(getApplicationContext(), SobreActivity.class);
+            startActivity(i);
         }
         return super.onOptionsItemSelected(item);
     }
@@ -41,8 +42,4 @@ public class MainActivity extends Activity {
         startActivity(i);
     }
 
-    public void goToOktober(View v) {
-        Intent i = new Intent(getApplicationContext(), OktoberActivity.class);
-        startActivity(i);
-    }
 }
